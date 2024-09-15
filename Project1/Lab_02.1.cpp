@@ -9,6 +9,12 @@
 
 using namespace std;
 
+
+// commit for secondBranch
+// HELLO WORLD
+// I have 57 repos in GitHub :)
+
+
 int main()
 {
 	double m;
@@ -19,8 +25,8 @@ int main()
 	cout << "m = "; cin >> m;
 	cout << "n = "; cin >> n;
 
-	// z1 = ((m - 1) * sqrt(m) - (n - 1) * sqrt(n)) / (sqrt(m * m * m * n) + m * n + m * m - m);
-	// z2 = ((sqrt(m) - sqrt(n)) / m);
+	z1 = ((m - 1) * sqrt(m) - (n - 1) * sqrt(n)) / (sqrt(m * m * m * n) + m * n + m * m - m);
+	z2 = ((sqrt(m) - sqrt(n)) / m);
 
 	cout << endl;
 	cout << "z1 = " << z1 << endl;
