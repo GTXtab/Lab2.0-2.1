@@ -6,6 +6,7 @@
 
 #include <iostream>
 #include <cmath>
+#include <Windows.h>
 
 // first commit for firstBranch
 // second commit for firstBranch
@@ -24,6 +25,9 @@ using namespace std;
 
 int main()
 {
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
+
 	double m;
 	double n;
 	double z1;
